@@ -1,0 +1,16 @@
+git init
+
+git status (show changes)
+
+git add sample.html(add file)
+
+git --rm cached sample.html (delete file)
+
+//git config --global user.name "Your Name"
+//git config --global user.email "youremail@yourdomain.com"
+
+git commit
+
+publish to git (vscode)
+
+git push
