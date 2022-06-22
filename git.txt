@@ -4,7 +4,7 @@ git status (show changes)
 
 git add sample.html(add file)
 
-git --rm cached sample.html (delete file)
+git rm --cached sample.html (delete file)
 
 //git config --global user.name "Your Name"
 //git config --global user.email "youremail@yourdomain.com"
@@ -14,3 +14,15 @@ git commit
 publish to git (vscode)
 
 git push
+
+git pull (pull file to git)
+
+git checkout -b <name>(create brand)
+
+git checkout <branch name> (go other branch)
+
+git add . && git commit -m"Add login file"
+
+git push --set-upstream origin login (push to repo and add new brand)
+
+.gitingonre (vscode folder)
