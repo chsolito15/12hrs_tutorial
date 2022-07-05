@@ -8,6 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="box"></div>
+    <div >
+        <div class="box" id="changeColor"></div>
+    </div>
+    <div class="about-me">
+        <h2 id="name">Christopher Solito</h2>
+        <img class="avatar" src="" alt="">
+    </div>
 </body>
+
+<script>
+    let mycolor = document.getElementById("changeColor");
+    
+  change = () =>{
+        mycolor.style.backgroundColor = "red";
+        
+    }
+
+    setTimeout(change, 2000);
+    
+</script>
 </html>
