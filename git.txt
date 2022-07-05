@@ -17,7 +17,7 @@ git push
 
 git pull (pull file to git)
 
-git checkout -b <name>(create brand)
+git checkout -b <name>(create branch)
 
 git checkout <branch name> (go other branch)
 
