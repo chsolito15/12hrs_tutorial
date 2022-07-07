@@ -5,27 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62aad1776e.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <div >
-        <div class="box" id="changeColor"></div>
-    </div>
-    <div class="about-me">
-        <h2 id="name">Christopher Solito</h2>
-        <img class="avatar" src="" alt="">
-    </div>
+        
+    <nav>
+        <img class="logo" src="img/Node.js_logo.svg" alt="node">
+        <div class="circle" id="changeColor"></div>          
+        <ul class="nav-bar">          
+            <li><a href="#about-me">About</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="">Github</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-info-1">
+            <h2 id="name">Christopher Solito</h2>              
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nobis labore ullam expedita reiciendis inventore. Deleniti eveniet ut odit, error laudantium voluptas itaque dolorum hic necessitatibus impedit tempora. Saepe, consequuntur!</p>
+            <div class="styled-break"></div>
+            <div class="button">Hire me</div>
+        </div>       
+            <img class="hero-image" src="img/Facebook-Live-Chat-Support.jpg" alt="working-illustration">       
+    
+    <section>
+        <div class="about-me">
+            <img class="avatar" src="img/solito.jpg" alt="Solito">
+        </div>
+        <div class="info">
+                <h2><a name="about-me">About me</a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Animi sequi at exercitationem molestias facere officiis 
+                    repudiandae quam ea velit sapiente, quae, ad placeat ipsa modi iusto dolores nobis qui vel.</p>              
+        </div>           
+    </section>
+
+    <section>
+        <!--add name "far" to customize fonts to css link-->
+        <i class="far fa-solid fa-user"></i>
+        <i class="far fa-solid fa-bell"></i>
+        <i class="far fa-solid fa-bell"></i>
+        <i class="far fa-solid fa-bell"></i>
+        <i class="far fa-solid fa-bell"></i>
+        
+    </section>
+
+    <section>
+        <form action="">
+            <h2>Contact</h2>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="first-name">First name:</label>
+                    <input type="text" id="first-name" name="first-name" value="john">
+                </div>
+                <div class="input-group">
+                    <label for="second-name">Last name:</label>
+                    <input type="text" id="second-name" name="second-name" value="doe">
+                </div>
+            </div>
+
+            <div class="input-section">
+                <label for="office">Office</label>
+                <input type="radio" id="office" name="office" value="office">
+                <label for="remote">Remote</label>
+                <input type="radio" id="remote" name="remote" value="remote">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="other" value="other">
+            </div>
+
+            <div class="input-section">
+                <input type="checkbox" id="contract" name="contract" value="contract">
+                <label for="contract">Contract work</label>
+                <input type="checkbox" id="fulltime" name="fulltime" value="fulltime">
+                <label for="fulltime">Full time</label>
+                <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship">
+                <label for="sponsorship">Contract work</label>
+            </div>
+
+            <input class="button" type="submit" value="submit">
+        </form>
+    </section>
+
+    <footer>
+        <ul class="disk">
+            <li><a href="">About me</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="https://github.com/chsolito15/12hrs_tutorial" target="_blank">Github</a></li>
+        </ul>
+    </footer>
+</div> <!--End of class="hero" -->
+
 </body>
 
 <script>
-    let mycolor = document.getElementById("changeColor");
+let mycolor = document.getElementById("changeColor");
     
-  change = () =>{
-        mycolor.style.backgroundColor = "red";
-        
-    }
-
-    setTimeout(change, 2000);
+change = () =>{
+    mycolor.style.backgroundColor = "red";
+}
+ setTimeout(change, 2000);
     
 </script>
 </html>
