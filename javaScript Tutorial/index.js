@@ -25,11 +25,13 @@ display1.innerHTML = userSlice;
 const circles = document.querySelectorAll('.circle');
 
 changeColor = () =>{
-      circles.forEach(x => {       
-        x.style.backgroundColor = 'red';  
+       circles.forEach(x => {       
+        x.style.backgroundColor = 'red';
+       
     });
 }
-setTimeout(changeColor,3000)  
+const getID = document.getElementById("reColor");
+getID.addEventListener('click', changeColor)
 
 const canIVote =[
     {   name: 'Vladimir Kukov',
@@ -75,7 +77,7 @@ const shows = [
     {
         name:'Dragon ball',
         series: 1,
-        episode: 400
+        episode: 900
     },
     {
         name:'Cowboy bebop',
@@ -86,7 +88,6 @@ const shows = [
 
 showDisplay = shows.filter(x => x.episode >= 50)
 console.log(showDisplay);
-
 
 const scores =[1,2,3,4,5]
 

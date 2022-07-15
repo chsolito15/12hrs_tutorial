@@ -64,7 +64,8 @@ body{
     height: 100px;
     border-radius: 50%;
     position: relative;
-    left: 495px;    
+    left: 495px;
+   
 }
 
 .flower{
@@ -104,7 +105,3 @@ body{
     background-color: blue;
     border-radius: 20px;
 }
-
-
-
-

@@ -1,14 +1,12 @@
 document.addEventListener('DOMContentLoaded',() =>{
 
-    console.log('testing')
+    //console.log('testing')
 
     const bdy = document.querySelector('body');
 
     bdy.addEventListener('click', function(){
         console.log("Click me!!!")})
-    
-
-    
+     
     const circle = document.querySelector('.circle');
     let count = 0;
     toggleColor = () => {
@@ -36,4 +34,12 @@ document.addEventListener('DOMContentLoaded',() =>{
     }
 
     move.addEventListener('click' , moveCircle)
+
+  /*  let i = 0;
+   while(i < 5){
+    i++;
+    console.log("Counting " + i)
+   
+   } */
+   
 })

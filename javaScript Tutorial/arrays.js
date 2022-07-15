@@ -7,7 +7,7 @@ getCelcius = () =>{
 getCelcius();
 console.log(celciusArr);
 ///////
-const array = [11, NaN, [], 'Angels']
+const array = [11, NaN, [], 'Angels',{}]
 
 checkForFalsey = () =>{
    return array.some((item) => !item)
@@ -35,8 +35,6 @@ getWords = () =>{
 }
 console.log(getWords());
 
-
-
 getWords1 = (arr, n) =>{
     return arr.filter(x => x.length >= n)
 }
@@ -48,7 +46,6 @@ getValues = () =>{
     return cmValues.map(x => parseFloat(x))
 }
 console.log(getValues());
-
 
 getValues = (cmVal) =>{
     return cmVal.map(x => parseFloat(x))
@@ -77,7 +74,6 @@ const hexa = document.getElementById('hexagon');
 
 clickHexagon = () =>{
     hexa.style.backgroundColor = 'red'
-
 }
 hexa.addEventListener('click', clickHexagon)
 
