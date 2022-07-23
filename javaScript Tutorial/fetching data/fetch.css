@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.name{
+    width: 360px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: lightsalmon;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+
+}
+
+.button{
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ef866c;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}

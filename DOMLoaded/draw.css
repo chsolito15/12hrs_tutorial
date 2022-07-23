@@ -1,15 +1,26 @@
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+     justify-content: flex-start;
 }
 
 .circle{
 
     width: 100px;
-    position: absolute;
     height: 100px;
     border-radius: 50%;
     background: #0000ff;
+    
+}
+
+.circle2{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #0000ff;
+    position: relative;
+    top: 0;
     
 }
 
@@ -21,3 +32,47 @@ body{
     background: #ff0000;
     
 }
+
+.date{
+    background-color: #8a2be2;
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.bubble{
+    background-color: #90ee90;
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    color: #808080;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bubble1{
+    background-color: #535e53;
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    color: #d4c8c8;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.bubble2{
+    background-color: #8ed68e;
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    color: #0a0a0a;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+

@@ -15,12 +15,18 @@
         
     <nav>
         <img class="logo" src="img/Node.js_logo.svg" alt="node">
-        <div class="circle" id="changeColor"></div>          
-        <ul class="nav-bar">          
+        <!--<div class="circle" id="changeColor"></div>-->
+                 
+        <ul class="nav-bar" id="nav-list">          
             <li><a href="#about-me">About</a></li>
             <li><a href="pages/contact.html">Contact</a></li>
             <li><a href="">Github</a></li>
         </ul>
+
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        
     </nav>
 
     <div class="hero">
@@ -101,6 +107,11 @@
 
 </body>
 
+<script src="main.js">
+
+
+</script>
+
 <script>
 let mycolor = document.getElementById("changeColor");
     
@@ -109,5 +120,6 @@ change = () =>{
 }
  setTimeout(change, 2000);
     
+
 </script>
 </html>
